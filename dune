@@ -1,0 +1,9 @@
+(library
+ (name filmstrip)
+ (wrapped false)
+ (modules filmstrip filmstrip_css))
+
+(test
+ (name consumer_test)
+ (modules consumer_test)
+ (libraries filmstrip))
